@@ -44,10 +44,18 @@ function Navbar(props) {
           <InputBase placeholder="Search..."></InputBase>
         </Search>
         <Icon>
-          <Badge badgeContent={4} color="primary">
+          <Badge
+            sx={{ display: { xs: "none", sm: "block" } }}
+            badgeContent={4}
+            color="primary"
+          >
             <Mail color="action" />
           </Badge>
-          <Badge badgeContent={4} color="primary">
+          <Badge
+            sx={{ display: { xs: "none", sm: "block" } }}
+            badgeContent={4}
+            color="primary"
+          >
             <NotificationsTwoTone color="action" />
           </Badge>
 

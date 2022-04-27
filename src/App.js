@@ -3,6 +3,7 @@ import Feed from "./components/Feedbar";
 import Sidebar from "./components/Sidebar";
 import Rightbar from "./components/Rightbar";
 import Navbar from "./components/Navbar";
+import AddPost from "./components/AddPost";
 function App() {
   // const BlueButton = styled(Button)({
   //   backgroundColor: "skyBlue",
@@ -31,6 +32,7 @@ function App() {
           <Feed />
           <Rightbar />
         </Stack>
+        <AddPost></AddPost>
       </Box>
     </div>
   );
