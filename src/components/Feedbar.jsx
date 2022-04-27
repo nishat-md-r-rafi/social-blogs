@@ -4,7 +4,7 @@ import Post from "./Post";
 
 function Feedbar(props) {
   return (
-    <Box>
+    <Box flex={4} m={2}>
       <Post />
       <Post />
       <Post />

@@ -14,7 +14,7 @@ import React from "react";
 function Rightbar(props) {
   return (
     <Box p={3} flex={2} sx={{ display: { xs: "none", sm: "block" } }}>
-      <Box>
+      <Box position="fixed">
         <Typography variant="h6" fontWeight={100} marginBottom={2}>
           Online friends
         </Typography>
@@ -27,7 +27,7 @@ function Rightbar(props) {
         </AvatarGroup>
 
         <Typography variant="h6" fontWeight={100} marginBottom={2}>
-          Latest News
+          Latest Conversation
         </Typography>
 
         <ImageList>

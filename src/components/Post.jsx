@@ -24,7 +24,7 @@ function Post(props) {
       <Card sx={{ maxWidth: "100%" }}>
         <CardHeader
           avatar={
-            <Avatar sx={{ bgcolor: "red" }} aria-label="recipe">
+            <Avatar sx={{ bgcolor: "lightGreen" }} aria-label="recipe">
               R
             </Avatar>
           }

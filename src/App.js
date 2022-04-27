@@ -20,7 +20,7 @@ function App() {
   // });
   return (
     <div className="App">
-      <Box position="absolute">
+      <Box>
         <Navbar />
         <Stack
           direction="row"
