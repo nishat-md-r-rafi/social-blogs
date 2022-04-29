@@ -78,6 +78,7 @@ function AddPost(props) {
           />
 
           <ButtonGroup
+            fullWidth
             variant="contained"
             aria-label="outlined primary button group"
           >

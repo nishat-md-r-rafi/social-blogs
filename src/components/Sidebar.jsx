@@ -22,7 +22,12 @@ import React from "react";
 function Sidebar(props) {
   return (
     <Box flex={1} sx={{ display: { xs: "none", sm: "block" } }}>
-      <Box position="fixed" backgroundColor="lightGreen" borderRadius="10px">
+      <Box
+        position="fixed"
+        backgroundColor="white"
+        borderRadius="10px"
+        marginRight="5px"
+      >
         <List>
           <ListItem disablePadding>
             <ListItemButton component="a" href="#home">
